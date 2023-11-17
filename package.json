@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-por-mis-cojones",
+  "version": "1.0.0",
+  "description": "aprendiendo tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/tailwind.css -o ./public/css/main.css --watch"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "ichigo",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
